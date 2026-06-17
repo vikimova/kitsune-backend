@@ -21,7 +21,7 @@ try:
 except ModuleNotFoundError:
     from auth import auth_bp
     from anime import anime_bp
-    from collections import collections_bp
+    from collections_routes import collections_bp
     from ratings import ratings_bp
 
 
